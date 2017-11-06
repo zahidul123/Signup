@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.destroy.signup.MainActivity"
+    android:orientation="vertical"
+    android:background="#51a9af"
+    android:layout_weight="1"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="124dp"
+        android:src="@drawable/download"
+        android:layout_gravity="center"
+
+
+
+        />
+    <EditText
+        android:id="@+id/text_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="user name"
+        android:textSize="30dp"
+        android:padding="20dp"
+
+        />
+    <EditText
+        android:id="@+id/text_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phone num"
+        android:textSize="30dp"
+        android:padding="20dp"
+
+        />
+    <EditText
+        android:id="@+id/text_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="pass word"
+        android:textSize="30dp"
+        android:padding="20dp"
+
+        />
+    <EditText
+        android:id="@+id/text_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name@gmail.com"
+        android:textSize="30dp"
+        android:padding="20dp"
+
+        />
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="SIGN UP"
+        android:textSize="30dp"
+        android:textColor="#f22e80"
+        android:layout_marginRight="10dp"
+        android:onClick="login"
+
+        />
+
+
+</LinearLayout>
